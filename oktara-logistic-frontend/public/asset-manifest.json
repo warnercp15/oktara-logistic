@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30fa8984.chunk.css",
+    "main.js": "/static/js/main.e543feea.chunk.js",
+    "main.js.map": "/static/js/main.e543feea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ae403ea3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ae403ea3.js.map",
+    "static/js/2.650c7f10.chunk.js": "/static/js/2.650c7f10.chunk.js",
+    "static/js/2.650c7f10.chunk.js.map": "/static/js/2.650c7f10.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.30fa8984.chunk.css.map": "/static/css/main.30fa8984.chunk.css.map",
+    "static/js/2.650c7f10.chunk.js.LICENSE.txt": "/static/js/2.650c7f10.chunk.js.LICENSE.txt",
+    "static/media/globals.scss": "/static/media/LeckerliOne-Regular.6ed7d6bd.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae403ea3.js",
+    "static/js/2.650c7f10.chunk.js",
+    "static/css/main.30fa8984.chunk.css",
+    "static/js/main.e543feea.chunk.js"
+  ]
+}
