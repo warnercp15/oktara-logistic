@@ -43,7 +43,7 @@ const MenuElements = ({ open }) => {
           key={menuItem.text}
           to={menuItem.url}
           className={`${styles.link} ${
-            router.pathname === menuItem.url ? styles["link-active"] : ""
+            router.pathname === menuItem.url || (router.pathname === "/" && menuItem.url === "/Packages") ? styles["link-active"] : ""
           }`}
         >
           {menuItem.text}

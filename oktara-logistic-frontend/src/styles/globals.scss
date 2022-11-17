@@ -210,7 +210,7 @@ main {
   outline: 0;
 }
 
-.modal {
+.modal-container {
   z-index: 100;
   background: rgb(217, 216, 216);
   position: relative;
@@ -248,7 +248,7 @@ $medium: 900px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .modal {
+  .modal-container {
     margin-top: 45% !important;
   }
 }

@@ -1,4 +1,5 @@
-import { LngLatBounds, Marker, Popup } from "mapbox-gl";
+/* eslint import/no-webpack-loader-syntax: off */
+import { LngLatBounds, Marker, Popup } from "!mapbox-gl";
 import { directionsApi } from "../../apis";
 import { MapContext } from "./MapContext";
 import { mapReducer } from "./mapReducer";

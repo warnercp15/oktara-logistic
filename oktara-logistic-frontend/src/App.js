@@ -13,8 +13,8 @@ function App() {
           <Router>
             <Switch>
               <Route exact path="/" component={Packages} />
-			  <Route exact path="/Manage" component={Manage} />
               <Route exact path="/Packages" component={Packages} />
+			        <Route exact path="/Manage" component={Manage} />
             </Switch>
           </Router>
         </MapProvider>
