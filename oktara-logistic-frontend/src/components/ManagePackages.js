@@ -34,7 +34,7 @@ export default function ManagePackages() {
     if(shipments.length <= 0){
       Toast.fire({
         icon: 'error',
-        title: "No packages for Shipments"
+        title: "No packages for shipments"
       });
       return;
     }
@@ -50,6 +50,10 @@ export default function ManagePackages() {
     coords = coords.slice(0, -1);
 
     try {
+      Toast.fire({
+        icon: 'success',
+        title: "Shipment created"
+      });
       getRouteBetweenPoints(userLocation, coords);
       setTimeout(() => {
         updatePackages();

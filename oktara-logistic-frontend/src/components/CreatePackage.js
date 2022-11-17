@@ -4,7 +4,6 @@ import { PlacesContext } from "../context/places/PlacesContext";
 import { PackageContext } from "../context/packages/PackageContext";
 import { Toast } from "../helpers/helper";
 import { logisticsApi } from "../apis";
-import Card from 'react-bootstrap/Card';
 
 export default function CreatePackage() {
   const [locationSelected, setLocationSelected] = useState();
@@ -81,7 +80,7 @@ export default function CreatePackage() {
             ) : (
               <div style={{maxHeight:"350px",overflowY: "auto", display:"flex",flexDirection:"column",alignItems:"center",border: '1px dashed gray ', margin:"1.5em auto",padding:".5em" }}>
                 {places?.map((place) => (
-                  <Card className="CardContainer" style={{color:"black",textAlign: 'center', display:"flex",flexDirection:"row",alignItems:"center", cursor:"pointer" }}
+                  <div className="CardContainer" style={{color:"black",textAlign: 'center', display:"flex",flexDirection:"row",alignItems:"center", cursor:"pointer" }}
                     key={place.id}
                     onClick={() => {
                         setPlaceSelected(place.place_name);
@@ -89,7 +88,7 @@ export default function CreatePackage() {
                         setPlaces([]);
                     }}>
                     <p style={{ fontSize: "12px" }}>{place.place_name}</p>
-                  </Card>
+                  </div>
                 ))}
               </div>
             )}
