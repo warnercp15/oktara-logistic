@@ -1,5 +1,4 @@
 # oktara-logistic
-# oktara-logistic
 
 #### To run the projects in a local environment, the following are instructions:
 
