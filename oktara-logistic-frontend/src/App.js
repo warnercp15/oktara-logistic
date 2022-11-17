@@ -12,9 +12,9 @@ function App() {
         <MapProvider>
           <Router>
             <Switch>
-              <Route exact path="/Packages" component={Packages} />
-              <Route exact path="/Manage" component={Manage} />
               <Route exact path="/" component={Packages} />
+			  <Route exact path="/Manage" component={Manage} />
+              <Route exact path="/Packages" component={Packages} />
             </Switch>
           </Router>
         </MapProvider>

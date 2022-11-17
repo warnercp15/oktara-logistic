@@ -1,21 +1,14 @@
 # oktara-logistic
 
-#### To run the projects in a local environment, the following are instructions:
+#### To run the project in a local environment, the following are instructions:
  
-#### Frontend 
+## The Backend is already hosted in: https://oktara-logistic-backend.herokuapp.com
+
+#### Frontend - Run Locally!
 #### Open the project in a terminal (root)
 #### Install node modules
 `npm i`
 #### Run project
 `npm start`
 
-## App hosted: https://oktara-logistic.netlify.app
-
-#### Backend 
-#### Open the project in a terminal (root)
-#### Install node modules
-`npm i`
-#### Run project
-`node index.js`
-
-## Server hosted: https://oktara-logistic-backend.herokuapp.com
+## The Frontend is hosted in: https://oktara-logistic.netlify.app (There some details, are not working properly: mapLibrary and some styles etc...)
